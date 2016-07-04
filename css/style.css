@@ -507,6 +507,27 @@ PORTFOLIO GRID
   padding-right: 390px;
 
 }
+.project-intro{
+  position: absolute;
+  height: 100%;
+}
+.project-intro h1{
+  font-size:23px;
+  position:absolute;
+  text-transform:uppercase;
+  color:#000000;
+  letter-spacing:1px;
+  font-weight:900;
+  line-height:50px;
+}
+.project-intro p{
+  font-size:13px;
+  position:absolute;
+  color:#686868;
+  letter-spacing:1px;
+  font-weight:400;
+  line-height:50px;
+}
 
 li.grid-item{
   width:360px;
