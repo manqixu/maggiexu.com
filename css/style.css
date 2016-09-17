@@ -1,7 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900,100,200);
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
+@import 'https://fonts.googleapis.com/css?family=Titillium+Web';
+
+
+
+
 
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-size:14px;
   font-weight: 400;
   overflow-y:scroll;
@@ -20,12 +25,6 @@ body{
 		text-shadow: none;
 	}
 
-p{
-  font-family: 'Raleway', sans-serif;
-  font-size:14px;
-  font-weight: 400;
-}
-
 a{
   text-decoration:none;
   -webkit-transition: all 0.2s ease-in;
@@ -33,7 +32,6 @@ a{
 	-ms-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;
 	transition: all 0.2s ease-in; 
-	border-bottom:1px solid #dedede;
 }
 
 a:focus {
@@ -74,7 +72,7 @@ PRELOADER
   width: 40px;
   height: 40px;
   margin: 0px auto;
-  background-color: #333;
+  background-color: #FFFFFF;
   border-radius: 100%;  
   -webkit-animation: scaleout 1.0s infinite ease-in-out;
   animation: scaleout 1.0s infinite ease-in-out;
@@ -205,7 +203,6 @@ ul.social-icon{
 ul.social-icon a{
   float:right;
   font-size:15px;
-  border-bottom:0;
   color:black;
   padding-right:0px !important;
 }
@@ -267,16 +264,17 @@ ul.header-nav{
 }
 
 header .logo > a{
-  font-size:23px;
+  font-family: 'Poiret One', cursive;
+  font-size:20px;
   font-weight:800;
   float:left;
   line-height:80px;
   padding-right:40px;
-  border-bottom: 1px solid #f1f1f1;
 }
 
 header .logo > a:hover{
-  color:#c3c3c3;
+/*  color:#c3c3c3;
+*/  opacity: 0.3;
 }
 
 header li{
@@ -292,7 +290,6 @@ header li > a{
   font-weight:800;
   line-height:80px;
   display:inline-block;  
-  border-bottom:0;
 }
 
 header li > a:hover{
@@ -368,15 +365,19 @@ CONTENT
   margin:50px auto;
 }
 
+.content img{
+  display: block;
+  margin: 15px auto;
+}
+
 
 .content .text-intro{
   width: 1140px;
-  margin-top: 150px;
-  margin: 150px auto 0;
+  margin: 120px auto 0;
 }
 
 .content .text-intro h1{
-  font-size:32px;
+  font-size:30px;
   width:40%;
   text-transform:uppercase;
   color:#000000;
@@ -384,14 +385,41 @@ CONTENT
   line-height:40px;
 }
 
+.content .text-intro h2{
+  font-size:26px;
+  color:#000000;
+  margin-top:100px;
+  font-weight:500;
+  line-height:40px;
+  letter-spacing:1px;
+  width:100%;
+  text-transform:uppercase;
+  text-align: center;
+}
+
+.content .text-intro h3{
+  font-size:13px;
+  color:#2b2b2b;
+  margin: 30px auto;
+  font-weight:400;
+  line-height:22px;
+  letter-spacing:1px;
+  width:70%;
+}
+
 .content .text-intro p{
   font-size:13px;
-  color:#8d8d8d;
+  color:#2b2b2b;
   margin-top:30px;
   font-weight:400;
   line-height:22px;
   letter-spacing:1px;
   width:40%;
+}
+
+.content .text-intro img{
+  display: block;
+  margin: 15px auto;
 }
 
         .typed-cursor{
@@ -498,7 +526,7 @@ PORTFOLIO GRID
 .portfolio-grid{
   width:1170px;
   position:relative;
-  margin: 30px auto;
+  margin: 30px -15px;
   overflow:hidden;
 }
 
@@ -533,7 +561,7 @@ li.grid-item{
   width:360px;
   position:relative;
   float:left;
-  padding:15px;
+  padding:0 15px;
 }
 
 .grid-hover{
@@ -578,8 +606,13 @@ li.grid-item{
   line-height:50px;
 }
 
+.grid-hover img{
+/*  width: 360px;
+*/}
+
 li.grid-item img{
   width:360px;
+  display: block;
 }
 
 /*
@@ -594,7 +627,7 @@ footer{
   background: #f1f1f1;
   width:100%;
   margin-top:150px;
-  height:300px;
+  height:200px;
   overflow:hidden;
   position:relative;
   z-index:10;
@@ -612,8 +645,8 @@ footer{
   color: #686868;
   letter-spacing: 1px;
   font-size: 12px;
-  width: 100%;
-  text-align:center;
+  width: 50%;
+  text-align:left;
   float: left;
 }
 
@@ -621,13 +654,13 @@ footer{
   color: #686868;
   letter-spacing: 1px;
   font-size: 13px;
-  width: 100%;
-  text-align:center;
+  width: 50%;
+  text-align:right;
   float: left;
 }
 
 .footer-margin .social-footer a{
-  font-size:15px;
+  font-size:20px;
   color:black;
   padding: 20px;
 }
@@ -669,7 +702,7 @@ input{
   color:#000000;
   font-weight:500;
   line-height:40px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   margin-bottom:10px;
   font-size:13px;
   padding-left:15px;
@@ -685,7 +718,7 @@ input.button-submit{
   background:#f8f7f7;
   font-weight:500;
   border:0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   color:#000000;
   float:right;
   font-weight:900;
@@ -706,7 +739,7 @@ textarea{
   background:#f8f7f7;
   color:#000000;
   font-size:13px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight:500;
   margin-bottom:10px;
   padding:0 0 0 15px;
