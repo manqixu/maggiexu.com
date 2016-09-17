@@ -296,7 +296,11 @@ header li > a:hover{
   color:#000000;
 }
 
-header li > a #active{
+header li > a:focus{
+  color:#000000;
+}
+
+header li > a:active{
   color:#000000;
 }
 
