@@ -2,9 +2,6 @@
 @import 'https://fonts.googleapis.com/css?family=Titillium+Web';
 
 
-
-
-
 body{
   font-family: 'Titillium Web', sans-serif;
   font-size:14px;
@@ -296,10 +293,6 @@ header li > a:hover{
   color:#000000;
 }
 
-header li > a:focus{
-  color:#000000;
-}
-
 header li > a:active{
   color:#000000;
 }
@@ -317,8 +310,6 @@ header li ul li a{
 header li:hover ul{
   position: absolute; padding: 0; display: block; width: 260px;
 }
-
-
 
 /*
 **************************
