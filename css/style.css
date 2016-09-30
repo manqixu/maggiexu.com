@@ -365,6 +365,11 @@ CONTENT
   margin: 15px auto;
 }
 
+.content video{
+  display: block;
+  margin: 15px auto;
+}
+
 
 .content .text-intro{
   width: 1140px;
@@ -609,6 +614,15 @@ li.grid-item img{
   width:360px;
   display: block;
 }
+
+li.grid-item video{
+  width:360px;
+  display: block;
+}
+
+.grid-hover video{
+/*  width: 360px;
+*/}
 
 /*
 **************************
