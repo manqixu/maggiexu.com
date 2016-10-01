@@ -370,6 +370,11 @@ CONTENT
   margin: 15px auto;
 }
 
+.content video{
+  display: block;
+  margin: 15px auto;
+}
+
 
 .content .text-intro{
   width: 1140px;
@@ -611,12 +616,12 @@ li.grid-item{
 */}
 
 li.grid-item img{
-  width:360px;
+  width:100%;
   display: block;
 }
 
 li.grid-item video{
-  width:360px;
+  width:100%;
   display: block;
 }
 
