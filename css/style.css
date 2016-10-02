@@ -427,6 +427,11 @@ CONTENT
   margin: 15px auto;
 }
 
+.content .text-intro video{
+  display: block;
+  margin: 15px auto;
+}
+
         .typed-cursor{
             opacity: 1;
             font-weight: 900;
