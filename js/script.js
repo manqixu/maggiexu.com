@@ -237,7 +237,7 @@ function showPreloader() {
 }
 
 function hidePreloader() {
-  $(".preloader").delay(2000).fadeOut("slow");
+  $(".preloader").delay(500).fadeOut("slow");
 }
 
 
