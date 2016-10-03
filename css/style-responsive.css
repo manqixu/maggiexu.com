@@ -43,7 +43,7 @@
 
   }
 
-  .grid-hover, li.grid-item, li.grid-item img{
+  .grid-hover, li.grid-item, li.grid-item img, li.grid-item video{
     width:312px;
   }
 
@@ -97,7 +97,7 @@
 
   }
 
-  .grid-hover, li.grid-item, li.grid-item img{
+  .grid-hover, li.grid-item, li.grid-item img, li.grid-item video{
     width:246px;
   }
 
@@ -163,7 +163,7 @@
     width:630px;
   }
 
-  .grid-hover, li.grid-item, li.grid-item img{
+  .grid-hover, li.grid-item, li.grid-item img, li.grid-item video{
     width:282px;
   }
 
@@ -259,7 +259,7 @@
     width:430px;
   }
 
-  .grid-hover, li.grid-item, li.grid-item img{
+  .grid-hover, li.grid-item, li.grid-item img, li.grid-item video{
     width:400px;
   }
 
@@ -353,7 +353,7 @@
     width:310px;
   }
 
-  .grid-hover, li.grid-item, li.grid-item img{
+  .grid-hover, li.grid-item, li.grid-item img, li.grid-item video{
     width:280px;
   }
 

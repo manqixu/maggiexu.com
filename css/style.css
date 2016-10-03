@@ -368,13 +368,8 @@ CONTENT
 .content video{
   display: block;
   margin: 15px auto;
+  position:relative;
 }
-
-.content video{
-  display: block;
-  margin: 15px auto;
-}
-
 
 .content .text-intro{
   width: 1140px;
