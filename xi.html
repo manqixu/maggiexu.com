@@ -92,25 +92,25 @@
 				        <img src="img/xi/assistant.jpg" width="100%" style="margin-top: 60px;">
 
                 <h2>Problem Statement</h2>
-                <h3>Effective communication has always been a challenge among different staffs in the OR; it becomes even more complicated when we bring robots into the surgical operation. While Intuitive Surgical has developed an amazingly sophisticated console for surgeons, other clinical staffs in the OR, for example, scrub tech or circulating nurses, have to rely on a screen that is far away from them to assist in the surgery. In addition, because the screen is original designed for surgeons, it's hard for assistants to associate information on the screen to the actual robot, which causes potential mismanipulationo of robotical arms or surgical instruments.<br/><br/>
-                  <ul style="list-style-type:square">
-                    <li>Coffee</li>
-                    <li>Tea</li>
-                    <li>Milk</li>
-                  </ul>
-                  <strong>Home device + companion mobile app</strong><br/>
-                  During oberservation and interview, we learned that people would not usually have phones with them in the morning when at home. Time in the morning is precious and people tend to be in a rush; we need something that users can easily refer to and interact with. While not at home, it's necessary to deliver the same information to users and mobile phone seems an ideal choice.<br/><br/>
-                  <strong>Interaction via a physical knob and voice</strong><br/>
-                  We imagine enosys as a replacement of tradistional calendar or clock, which will be hang on the wall and requires minimal interaction. Compared to tapping and clicking on the screen, a knob under screen is easier to reach and can accomplish most interaction. Simple command like "order an Uber" could be done via voice. <br/><br/>
-                  <strong>Time reminding via lighting</strong><br/>
-                  We don't want enosys to be intrusive. With different colors representing each family member, users should get a sense of when to leave at just a glance. <br/><br/>
-                  </h3>
+                <h3>Effective communication has always been a challenge among different staffs in the OR; it becomes even more complicated when we bring robots into the surgical operation. While Intuitive Surgical has developed an amazingly sophisticated console for surgeons, other clinical staffs in the OR, for example, scrub tech or circulating nurses, have to rely on a screen that is far away from them to assist in the surgery. In addition, because the screen is original designed for surgeons, it's hard for assistants to associate information on the screen to the actual robot, which causes potential mismanipulationo of robotical arms or surgical instruments.</h3>
+                <img src="img/xi/observation.png" width="70%">
+
+
+                <h2>Observation and Interview</h2>
+                <h3>I identified 5 usability issues after spending two weeks observing and interviewing clinical engineers and surgical teams.<br/><br/>
+                <strong>Unclear setup guidance</strong><br/>
+                Current system provides a guided setup as a preparation step. Some users will skip it, and it is common for them to set up the surgical platform 180 degrees backward. Even they do follow the instruction, they may still select the wrong target anatomy.<br/><br/>
+                <strong>Unnecessary struggle with laser pattern</strong><br/>
+                The laser was designed for guiding the robot towards endoscope port. But the crosshair shape implies much more accuracy than necessary, and also implies some kind of orientation. Some users will struggle with the imperfection and end up spending a long time to make it perfect.<br/><br/>
+                <strong>Incorrect arm association</strong><br/>
+                50% arm-related troubleshooting processes involve manipulation on the external robot arm. But when the assistant try to resolve it, they will have to rely on a display that is far away from them. There is not always a one-to-one mapping from the screen to the 'real world', so they sometimes get confused and take incorrect actions.<br/><br/>
+                <strong>Unclear troubleshooting guidance</strong><br/>
+                With the only screen being far away, it is hard to put detailed and illustrated toubleshooting guidance there. Even it's provided, chances are that assistants don't immediately refer to it.<br/><br/>
+                <strong>Interfaces unaccessible for non-sterile staffs</strong><br/>
+                There is a clear divide between sterile and non-sterile fields in the operating room and staffs operate within certain area. Teamwork is challenging because staffs have limited access to information as well as limited interaction with the system.</h3>
 
                 <h2>Prototype</h2>
                 <h3 align="center">Projection-based "Augmented Reality"</h3>
-
-<!--Portfolio grid-->
-
                 <ul class="portfolio-grid">
                   <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
                       <video autoplay="autoplay" loop="loop">
@@ -200,14 +200,6 @@
                   </li>
 
                   <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-                    <img src="img/xi/whole.jpg">
-                      <a href="img/xi/whole.jpg" data-lightbox="prototype" data-title="hi-fi prototype"> 
-                        <div class="grid-hover">
-                        </div>
-                      </a>      
-                  </li>
-
-                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
                     <img src="img/xi/whole2.jpg">
                       <a href="img/xi/whole2.jpg" data-lightbox="prototype" data-title="hi-fi prototype"> 
                         <div class="grid-hover">
@@ -222,17 +214,131 @@
                         </div>
                       </a>      
                   </li>
+
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+                    <img src="img/xi/ipad.jpg">
+                      <a href="img/xi/ipad.jpg" data-lightbox="prototype" data-title="hi-fi prototype"> 
+                        <div class="grid-hover">
+                        </div>
+                      </a>      
+                  </li>
+                </ul>
+
+                <h3 align="center">Early sketches of ideas</h3>
+                <ul class="portfolio-grid">
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+                    <img src="img/xi/sketch.png">
+                      <a href="img/xi/sketch.png" data-lightbox="prototype" data-title="hi-fi prototype">  
+                        <div class="grid-hover">
+                        </div>
+                      </a>
+                  </li>
+
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+                    <img src="img/xi/sketch2.png">
+                      <a href="img/xi/sketch2.png" data-lightbox="prototype" data-title="hi-fi prototype">  
+                        <div class="grid-hover">
+                        </div>
+                      </a>      
+                  </li>    
+                  
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+                    <img src="img/xi/hifi1.png">
+                      <a href="img/xi/hifi1.png" data-lightbox="prototype" data-title="hi-fi prototype"> 
+                        <div class="grid-hover">
+                        </div>
+                      </a>      
+                  </li>
+
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+                    <img src="img/xi/hifi2.png">
+                      <a href="img/xi/hifi2.png" data-lightbox="prototype" data-title="hi-fi prototype">  
+                        <div class="grid-hover">
+                        </div>
+                      </a>
+                  </li>
+
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+                    <img src="img/xi/hifi3.png">
+                      <a href="img/xi/hifi3.png" data-lightbox="prototype" data-title="hi-fi prototype">  
+                        <div class="grid-hover">
+                        </div>
+                      </a>      
+                  </li>    
+                  
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+                    <img src="img/xi/hifi4.png">
+                      <a href="img/xi/hifi4.png" data-lightbox="prototype" data-title="hi-fi prototype"> 
+                        <div class="grid-hover">
+                        </div>
+                      </a>      
+                  </li>
                 </ul>
 
 
-                <h2>User Journey</h2>
-                <h3>Draw an user experience map</h3>
+
+<!--                 <h2>User Journey</h2>
+                <h3>Draw an user experience map</h3> -->
 
                 <h2>Usability Test</h2>
-                <h3>3 test video screenshoots; 3 charts showing results and insights</h3>
+                <h3>I invited 18 participants with varying levels of experience with the robot as well as varying levels of clinical experience for a usability test. The new design eliminates arm misassociation problem and the average troubleshooting time is decreased by half. It also smooths the setup process with much more available and clearer instruction.</h3>
+                <ul class="portfolio-grid">
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+                    <img src="img/xi/test3.jpg">
+                      <a href="img/xi/test3.jpg" data-lightbox="test" data-title="usability test"> 
+                        <div class="grid-hover">
+                        </div>
+                      </a>      
+                  </li>
 
-                <h2>Storytelling Demo</h2>
-                <h3>At about halfway of my internship, I gave a presentation at Intern Exhibition Day. Here is the poster.</h3>
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+                    <img src="img/xi/test2.jpg">
+                      <a href="img/xi/test2.jpg" data-lightbox="test" data-title="usability test"> 
+                        <div class="grid-hover">
+                        </div>
+                      </a>      
+                  </li>
+
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+                    <img src="img/xi/test1.jpg">
+                      <a href="img/xi/test1.jpg" data-lightbox="test" data-title="usability test"> 
+                        <div class="grid-hover">
+                        </div>
+                      </a>      
+                  </li>
+                </ul>
+
+
+                <h2>Presentation</h2>
+                <h3>In the end, I presented to corporate senior executives, and design, producton and marketing divisions a storytelling demo featuring future user experience with surgical robots.</h3>
+                <ul class="portfolio-grid">
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+                    <img src="img/xi/demo.jpg">
+                      <a href="img/xi/demo.jpg" data-lightbox="demo" data-title="usability test"> 
+                        <div class="grid-hover">
+                        </div>
+                      </a>      
+                  </li>
+
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+                    <img src="img/xi/whole.jpg">
+                      <a href="img/xi/whole.jpg" data-lightbox="demo" data-title="usability test"> 
+                        <div class="grid-hover">
+                        </div>
+                      </a>      
+                  </li>
+
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+                    <img src="img/xi/demo2.jpg">
+                      <a href="img/xi/demo2.jpg" data-lightbox="demo" data-title="usability test"> 
+                        <div class="grid-hover">
+                        </div>
+                      </a>      
+                  </li>
+                </ul>
+
+
+                <h3>At about halfway of my internship, I gave a presentation at Intern Exhibition Day. Here is my poster.</h3>
 
                 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://drive.google.com/file/d/0B6DMx9Z--KzkT2lPeWpjUkh3dkE/preview" width="1140" height="630"></iframe></iframe></div>
 
