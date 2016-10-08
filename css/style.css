@@ -40,6 +40,12 @@ strong{
 
 }
 
+video{
+  display: block;
+  margin: 15px auto;
+  position:relative;
+}
+
 /*
 **************************
 PRELOADER
