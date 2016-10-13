@@ -352,8 +352,28 @@ CONTENT
   width:70% !important;
 }
 
+.one-column img{
+  width: 60%;
+  padding-top: 30px;
+}
+
 .two-column p{
   width:100% !important;
+}
+
+.one-column .profile{
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in; 
+}
+
+.one-column .profile:hover{
+  opacity: 0.9;
 }
 
 .clear{
