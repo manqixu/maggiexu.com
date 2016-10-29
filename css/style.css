@@ -348,13 +348,9 @@ CONTENT
   float:left;
 }
 
-.one-column p{
-  width:70% !important;
-}
-
 .one-column img{
   width: 60%;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .two-column p{
