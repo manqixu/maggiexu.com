@@ -353,6 +353,10 @@ CONTENT
   padding-top: 20px;
 }
 
+.one-column p{
+  width: 70% !important;
+} 
+
 .two-column p{
   width:100% !important;
 }
