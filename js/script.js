@@ -168,7 +168,7 @@ $(document).ready(function(){
 	setTimeout( function(){
 		if($("#site-type").length) {
         $(".typewrite span").typed({
-            strings: ["USER EXPERIENCE ", "RAPID PROTOTYPING ", "SUMMER, ICE CREAM, AND CHERRIES ", "PRODUCT DESIGN "],
+            strings: ["USER EXPERIENCE DESIGN ", "BUILDING AND BREAKING THINGS ", "SUMMER, ICE CREAM, AND CHERRIES ", "PRODUCT DESIGN "],
             typeSpeed: 100,
             backDelay: 500,
             loop: true,
